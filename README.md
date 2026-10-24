@@ -4,19 +4,20 @@ Konteks & Keputusan Arsitektur (Pertemuan 5) serta Karakteristik Arsitektur & At
 
 | Keterangan | Isi |
 |---|---|
-| Kelompok | Bagian [I / II / III] – Kelompok [XX] |
-| Subsistem | [salin dari tabel 2.2 pada dokumen tugas] |
-| Layanan inti | [salin dari tabel 2.2 pada dokumen tugas] |
-| Perwakilan kelompok | [nama, stambuk] |
+| Kelompok | Bagian III – Kelompok 01 |
+| Subsistem | Layanan Pendukung Kampus |
+| Layanan inti | Layanan pengaduan dan pelaporan AMANAH: pengiriman laporan, penugasan ke unit, tindak lanjut, dan umpan balik |
+| Perwakilan kelompok | MUHAMMAD WIDYADHANA RAFIPUTRA, 13020240108 |
 
 ## Anggota
 
 | No | Stambuk | Nama | Akun GitHub | Kode yang dikerjakan |
 |---|---|---|---|---|
-| 1 | | | @ | |
-| 2 | | | @ | |
-| 3 | | | @ | |
-| 4 | | | @ | |
+| 1 | 13020240108 | MUHAMMAD WIDYADHANA RAFIPUTRA | [@Kiano-Ksl](https://github.com/Kiano-Ksl) | BAB I, A1, B1 |
+| 2 | 13020240101 | ABRAR RAYNALDO ARIFUDDIN | [@Rayyy03](https://github.com/Rayyy03) | A4, B2 |
+| 3 | 13020240051 | ALIF F. FAUZAN | [@fauzanalif791](https://github.comfauzanalif791) | A5, B4 |
+| 4 | 13020240275 | MUH. AKMAL ZAIDAN ZIDNA | @ | A3, B5, BAB IV, Pustaka |
+| 5 | 13020210276 | MUH IRWAN AGIL SAPUTRA | @ | A2, B3 |
 
 ## Peta berkas dan penanggung jawab
 
@@ -24,23 +25,23 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 
 | Kode | Berkas | Penanggung jawab | Status |
 |---|---|---|---|
-| BAB I | laporan/BAB1-pendahuluan.md | | Belum |
-| A1 | laporan/A1-konteks-arsitektur.md | | Belum |
-| A2 | laporan/A2-stakeholder.md | | Belum |
-| A3 | laporan/A3-batasan.md | | Belum |
-| A4 | laporan/A4-asr.md | | Belum |
-| A5 | laporan/A5-keputusan-arsitektur.md dan adr/ | | Belum |
-| B1 | laporan/B1-karakteristik.md | | Belum |
-| B2 | laporan/B2-atribut-terukur.md | | Belum |
-| B3 | laporan/B3-tiga-struktur.md dan diagram/ | | Belum |
-| B4 | laporan/B4-iso-25010.md | | Belum |
-| B5 | laporan/B5-trade-off.md | | Belum |
-| BAB IV | laporan/BAB4-penutup.md | | Belum |
-| Pustaka | laporan/daftar-pustaka.md | | Belum |
+| BAB I | laporan/BAB1-pendahuluan.md | MUHAMMAD WIDYADHANA RAFIPUTRA | Belum |
+| A1 | laporan/A1-konteks-arsitektur.md | MUHAMMAD WIDYADHANA RAFIPUTRA | Belum |
+| A2 | laporan/A2-stakeholder.md | MUH IRWAN AGIL SAPUTRA | Belum |
+| A3 | laporan/A3-batasan.md | MUH. AKMAL ZAIDAN ZIDNA | Belum |
+| A4 | laporan/A4-asr.md | ABRAR RAYNALDO ARIFUDDIN | Belum |
+| A5 | laporan/A5-keputusan-arsitektur.md dan adr/ | ALIF F. FAUZAN | Belum |
+| B1 | laporan/B1-karakteristik.md | MUHAMMAD WIDYADHANA RAFIPUTRA | Belum |
+| B2 | laporan/B2-atribut-terukur.md | ABRAR RAYNALDO ARIFUDDIN | Belum |
+| B3 | laporan/B3-tiga-struktur.md dan diagram/ | MUH IRWAN AGIL SAPUTRA | Belum |
+| B4 | laporan/B4-iso-25010.md | ALIF F. FAUZAN | Belum |
+| B5 | laporan/B5-trade-off.md | MUH. AKMAL ZAIDAN ZIDNA | Belum |
+| BAB IV | laporan/BAB4-penutup.md | MUH. AKMAL ZAIDAN ZIDNA | Belum |
+| Pustaka | laporan/daftar-pustaka.md | MUH. AKMAL ZAIDAN ZIDNA | Belum |
 
 ## Laporan PDF terakhir
 
-`hasil/TugasKel1_[Bagian]_Kelompok[XX].pdf` (contoh: `TugasKel1_I_Kelompok01.pdf`)
+`hasil/TugasKel1_III_Kelompok01.pdf` (contoh: `TugasKel1_I_Kelompok01.pdf`)
 
 ## Aturan kerja singkat
 
