@@ -16,8 +16,8 @@ Konteks & Keputusan Arsitektur (Pertemuan 5) serta Karakteristik Arsitektur & At
 | 1 | 13020240108 | MUHAMMAD WIDYADHANA RAFI PUTRA | [@Kiano-Ksl](https://github.com/Kiano-Ksl) | BAB I, A1, B1 |
 | 2 | 13020240101 | ABRAR RAYNALDO ARIFUDDIN | [@Rayyy03](https://github.com/Rayyy03) | A4, B2 |
 | 3 | 13020240051 | ALIF F. FAUZAN | [@fauzanalif791-sketch](https://github.com/fauzanalif791-sketch) | A5, B4 |
-| 4 | 13020240275 | MUH. AKMAL ZAIDAN ZIDNA | @ | A3, B5, BAB IV, Pustaka |
-| 5 | 13020210276 | MUH IRWAN AGIL SAPUTRA | @ | A2, B3 |
+| 4 | 13020240275 | MUH. AKMAL ZAIDAN ZIDNA | @ | A3, B5, BAB IV |
+| 5 | 13020210276 | MUH IRWAN AGIL SAPUTRA | @ | A2, B3, Pustaka |
 
 ## Peta berkas dan penanggung jawab
 
@@ -36,7 +36,7 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 | B3 | laporan/B3-tiga-struktur.md dan diagram/ | MUH IRWAN AGIL SAPUTRA | Belum |
 | B4 | laporan/B4-iso-25010.md | ALIF F. FAUZAN | Belum |
 | B5 | laporan/B5-trade-off.md | MUH. AKMAL ZAIDAN ZIDNA | Belum |
-| BAB IV | laporan/BAB4-penutup.md | MUH. AKMAL ZAIDAN ZIDNA | Belum |
+| BAB IV | laporan/BAB4-penutup.md | MUH IRWAN AGIL SAPUTRA | Belum |
 | Pustaka | laporan/daftar-pustaka.md | MUH. AKMAL ZAIDAN ZIDNA | Belum |
 
 ## Laporan PDF terakhir
