@@ -7,13 +7,13 @@ Konteks & Keputusan Arsitektur (Pertemuan 5) serta Karakteristik Arsitektur & At
 | Kelompok | Bagian III – Kelompok 01 |
 | Subsistem | Layanan Pendukung Kampus |
 | Layanan inti | Layanan pengaduan dan pelaporan AMANAH: pengiriman laporan, penugasan ke unit, tindak lanjut, dan umpan balik |
-| Perwakilan kelompok | MUHAMMAD WIDYADHANA RAFIPUTRA, 13020240108 |
+| Perwakilan kelompok | Muhammad Widyadhana Rafi' Putra, 13020240108 |
 
 ## Anggota
 
 | No | Stambuk | Nama | Akun GitHub | Kode yang dikerjakan |
 |---|---|---|---|---|
-| 1 | 13020240108 | MUHAMMAD WIDYADHANA RAFIPUTRA | [@Kiano-Ksl](https://github.com/Kiano-Ksl) | BAB I, A1, B1 |
+| 1 | 13020240108 | MUHAMMAD WIDYADHANA RAFI PUTRA | [@Kiano-Ksl](https://github.com/Kiano-Ksl) | BAB I, A1, B1 |
 | 2 | 13020240101 | ABRAR RAYNALDO ARIFUDDIN | [@Rayyy03](https://github.com/Rayyy03) | A4, B2 |
 | 3 | 13020240051 | ALIF F. FAUZAN | [@fauzanalif791](https://github.comfauzanalif791) | A5, B4 |
 | 4 | 13020240275 | MUH. AKMAL ZAIDAN ZIDNA | @ | A3, B5, BAB IV, Pustaka |
