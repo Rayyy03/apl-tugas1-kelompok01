@@ -18,6 +18,6 @@
 - B1: Identifikasi kandidat karakteristik *Usability* (kemudahan penggunaan) dan *Reliability* (keandalan pencatatan tiket).
 
 ## Bukti Tangkapan Layar Terkait
-![Tangkapan layar pilihan jenis laporan dan 15 kategori permasalahan AMANAH UMI](ss-01-kategori-dan-jenis-laporan.png)
+![Tangkapan layar pilihan jenis laporan dan 15 kategori permasalahan AMANAH UMI](assets/ss-01-kategori-dan-jenis-laporan.png)
 
 **Keterangan:** Tampilan antarmuka formulir publik AMANAH UMI (`https://umi.ac.id/amanah`) tanpa *login* SSO yang memuat 5 pilihan Jenis Laporan dan 15 pilihan Kategori Permasalahan. Tangkapan layar ini mendukung temuan wawancara **R1** mengenai perlunya panduan pengisian agar pelapor tidak salah memilih kategori dan unit tujuan, serta menjadi acuan analisis pada **BAB I**, **A1**, **A2**, dan **B1**.
