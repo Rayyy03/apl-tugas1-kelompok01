@@ -16,8 +16,8 @@ Konteks & Keputusan Arsitektur (Pertemuan 5) serta Karakteristik Arsitektur & At
 | 1 | 13020240108 | MUHAMMAD WIDYADHANA RAFI PUTRA | [@Kiano-Ksl](https://github.com/Kiano-Ksl) | BAB I, A1, B1 |
 | 2 | 13020240101 | ABRAR RAYNALDO ARIFUDDIN | [@Rayyy03](https://github.com/Rayyy03) | A4, B2 |
 | 3 | 13020240051 | ALIF F. FAUZAN | [@fauzanalif791-sketch](https://github.com/fauzanalif791-sketch) | A5, B4 |
-| 4 | 13020240275 | MUH. AKMAL ZAIDAN ZIDNA | @ | A3, B5, BAB IV |
-| 5 | 13020210276 | MUH IRWAN AGIL SAPUTRA | @ | A2, B3, Pustaka |
+| 4 | 13020240275 | MUH. AKMAL ZAIDAN ZIDNA (Tidak Diketahui) | @ | A3, B5, BAB IV |
+| 5 | 13020210276 | MUH IRWAN AGIL SAPUTRA (Tidak Diketahui) | @ | A2, B3, Pustaka |
 
 ## Peta berkas dan penanggung jawab
 
