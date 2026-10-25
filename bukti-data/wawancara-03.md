@@ -1,7 +1,7 @@
 # Ringkasan Wawancara 03
 
 - **Tanggal:** 22-10-2026
-- **Responden (peran saja):** mahasiswa semester 3
+- **Responden:** mahasiswa semester 3
 - **Pewawancara:** MUHAMMAD WIDYADHANA RAFIPUTRA
 - **Layanan yang dibahas:** Layanan pengaduan dan pelaporan AMANAH: pengiriman laporan, penugasan ke unit, tindak lanjut, dan umpan balik
 
