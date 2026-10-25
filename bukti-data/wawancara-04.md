@@ -16,3 +16,8 @@
 - A3: Identifikasi batasan operasional dan bisnis terkait keterbatasan jumlah personel admin pengelola dan keharusan mengikuti struktur birokrasi unit kerja kampus.
 - A5: Penyusunan ADR terkait pencatatan riwayat status terpusat dan pemisahan data identitas sebelum laporan didisposisikan ke unit kerja.
 - B5: Analisis *trade-off* antara pemeriksaan keamanan/verifikasi berlapis oleh admin dengan kecepatan waktu tanggap (*responsiveness*) penanganan laporan.
+
+## Bukti Tangkapan Layar Terkait
+![Tangkapan layar halaman pelacakan status laporan dengan kode tiket AMANAH-XXXXXX](assets/ss-04-halaman-lacak-tiket.png)
+
+**Keterangan:** Tampilan halaman pelacakan status laporan (`https://umi.ac.id/amanah/cek`) menggunakan kode tiket berformat `AMANAH-XXXXXX`. Tangkapan layar ini mendukung temuan wawancara terkait kebutuhan pencatatan riwayat perubahan status terpusat (*audit trail*) dan notifikasi otomatis kepada pelapor, serta menjadi acuan pada **A4**, **A5**, **B1**, dan **B5**.
