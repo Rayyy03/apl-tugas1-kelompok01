@@ -16,3 +16,8 @@
 - A4: Perumusan ASR terkait keandalan pelacakan status, pengiriman notifikasi otomatis, dan penanganan unggahan berkas bukti maksimal 10 MB.
 - A5: Penyusunan keputusan arsitektur (ADR) untuk penggunaan antrean pesan (*message queue*) pada pengiriman notifikasi status tiket serta pemisahan penyimpanan berkas bukti (*object storage*).
 - B2: Perumusan atribut kualitas terukur untuk waktu respons unggah berkas bukti dan keandalan pengiriman notifikasi perubahan status tiket.
+
+## Bukti Tangkapan Layar Terkait
+![Tangkapan layar fasilitas unggah bukti pendukung maksimal 10 MB AMANAH UMI](assets/ss-03-unggah-bukti-pendukung.png)
+
+**Keterangan:** Tampilan fasilitas unggah berkas bukti pendukung pada formulir AMANAH UMI yang membatasi ukuran lampiran maksimal 10 MB dengan format PDF, JPG, PNG, DOCX, MP4, dan MP3. Tangkapan layar ini mendukung temuan wawancara **R3** mengenai kendala ukuran unggahan video/dokumen dan keandalan proses unggah, serta menjadi acuan pada **A3**, **A4**, **A5**, dan **B2**.
