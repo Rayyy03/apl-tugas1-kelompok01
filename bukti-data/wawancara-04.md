@@ -1,7 +1,7 @@
 # Ringkasan Wawancara 04
 
 - **Tanggal:** 22-10-2026
-- **Responden (peran saja):** staf admin pengelola layanan pengaduan
+- **Responden:** staf admin pengelola layanan pengaduan
 - **Pewawancara:** MUHAMMAD WIDYADHANA RAFI PUTRA
 - **Layanan yang dibahas:** Layanan pengaduan dan pelaporan AMANAH: pengiriman laporan, penugasan ke unit, tindak lanjut, dan umpan balik
 
