@@ -29,10 +29,10 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 | A1 | laporan/A1-konteks-arsitektur.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Selesai |
 | A2 | laporan/A2-stakeholder.md | MUH IRWAN AGIL SAPUTRA | Belum |
 | A3 | laporan/A3-batasan.md | MUH. AKMAL ZAIDAN ZIDNA | Belum |
-| A4 | laporan/A4-asr.md | ABRAR RAYNALDO ARIFUDDIN | Belum |
+| A4 | laporan/A4-asr.md | ABRAR RAYNALDO ARIFUDDIN | Selesai |
 | A5 | laporan/A5-keputusan-arsitektur.md dan adr/ | ALIF F. FAUZAN | Belum |
 | B1 | laporan/B1-karakteristik.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Selesai |
-| B2 | laporan/B2-atribut-terukur.md | ABRAR RAYNALDO ARIFUDDIN | Belum |
+| B2 | laporan/B2-atribut-terukur.md | ABRAR RAYNALDO ARIFUDDIN | Selesai |
 | B3 | laporan/B3-tiga-struktur.md dan diagram/ | MUH IRWAN AGIL SAPUTRA | Belum |
 | B4 | laporan/B4-iso-25010.md | ALIF F. FAUZAN | Belum |
 | B5 | laporan/B5-trade-off.md | MUH. AKMAL ZAIDAN ZIDNA | Belum |
