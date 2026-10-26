@@ -1,6 +1,10 @@
 # B2. Atribut Kualitas yang Terukur
+Penanggung jawab: Abrar Raynaldo Arifuddin (@Rayyy03)
 
-<!-- Penanggung jawab: [nama] -->
-<!-- Yang diminta: Untuk 3 karakteristik pendorong: angka target, kondisi pengukuran, dan cara mengukur. -->
-<!-- Hapus komentar ini setelah bagian selesai. -->
+Untuk memastikan tiga karakteristik pendorong utama (*Security & Confidentiality, Reliability & Auditability, dan Maintainability*) dapat diuji secara objektif, berikut adalah skenario ukuran terukur (*quality attribute scenarios*) yang dijabarkan berdasarkan stimulus, lingkungan, respons, dan ukuran kuantitatifnya [2]:
 
+| Karakteristik Pendorong | Stimulus (Kejadian) | Lingkungan / Kondisi | Respons Sistem (Reaksi) | Ukuran Target Kuantitatif |
+|---|---|---|---|---|
+| **1. Keamanan & Kerahasiaan (*Security & Confidentiality*)** | Pihak unit kerja yang tidak berwenang mencoba membuka data identitas laporan berstatus *Rahasia*. | Saat sistem beroperasi normal di lingkungan produksi web `umi.ac.id/amanah`. | Sistem menolak akses, menyamarkan data diri (*masking*), dan mencatat kejadian tersebut ke dalam *audit log*. | **100%** penolakan akses ilegal pada data identitas laporan rahasia; waktu pencatatan log keamanan kurang dari **200 milidetik**. |
+| **2. Keandalan & Keterlacakan (*Reliability & Auditability*)** | Pelapor mengirimkan formulir beserta berkas bukti 10 MB dan langsung mengecek status menggunakan kode tiket `AMANAH-XXXXXX`. | Saat terjadi lonjakan pengiriman 50 laporan bersamaan oleh pengguna kampus. | Sistem menghasilkan kode tiket unik secara instan, mencatat riwayat status, dan menampilkan data progres di `/amanah/cek`. | Tingkat keberhasilan pencatatan tiket **99,9%** (tanpa ada data laporan yang hilang); waktu muat halaman cek tiket di bawah **2 detik**. |
+| **3. Kemudahan Perawatan (*Maintainability*)** | Tim pengembang internal memperbarui daftar kategori permasalahan (misalnya menambah/mengubah kategori unit kerja). | Saat sistem dihentikan sementara (*maintenance*) atau diperbarui secara berkala (*patching*). | Perubahan aturan kategori dan alur disposisi dapat diselesaikan pada modul terkait tanpa merusak modul autentikasi atau formulir utama. | Waktu yang dibutuhkan untuk memperbarui aturan kategori unit kurang dari **2 jam** tanpa menimbulkan *downtime* pada halaman publik pelapor. |
