@@ -1,19 +1,21 @@
-# ADR-[nomor]: [judul singkat keputusan]
+# ADR-001: Pemilihan Bahasa Pemrograman
 
-<!-- Salin berkas ini menjadi ADR-001-judul-singkat.md, ADR-002-... dan seterusnya. -->
+## Title
+Pemilihan Bahasa Pemrograman
 
-- **Status:** Diusulkan / Diterima / Digantikan oleh ADR-[nomor]
-- **Tanggal:** [DD-MM-2026]
-- **Pengambil keputusan:** [nama anggota]
+## Status
+Accepted
 
 ## Context
-[Masalah, kekuatan yang memengaruhi, dan batasan. Hubungkan dengan kode ASR pada A4.]
+Proyek membutuhkan bahasa pemrograman yang sesuai untuk mengembangkan aplikasi, mudah dipelihara, dan mendukung kebutuhan fungsional sistem.
 
 ## Decision
-[Keputusan yang diambil, ditulis dengan kalimat aktif: "Kami akan ...".]
+Tim memilih bahasa pemrograman yang sesuai dengan teknologi yang digunakan dalam proyek agar pengembangan dan pemeliharaan aplikasi dapat dilakukan secara efektif.
 
 ## Consequences
-[Dampak positif dan negatif, termasuk trade-off yang diterima.]
+- Pengembangan kode menjadi lebih terarah.
+- Anggota tim perlu memahami bahasa pemrograman yang dipilih.
+- Pemeliharaan kode mengikuti standar bahasa dan proyek.
 
 ## Compliance
-[Cara memastikan keputusan ini dipatuhi: tinjauan kode, pengujian, atau pemantauan.]
+Seluruh anggota tim harus menggunakan bahasa pemrograman yang telah disepakati serta mengikuti standar penulisan kode proyek.
