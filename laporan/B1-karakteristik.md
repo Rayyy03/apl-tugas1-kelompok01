@@ -1,4 +1,5 @@
 # B1. Identifikasi dan Klasifikasi Karakteristik
+Penanggung Jawab: Muhammad Widyadhana Rafi' Putra
 
 ## 1. Daftar Kandidat Karakteristik Arsitektur
 Berdasarkan analisis konteks dan kebutuhan layanan pengaduan **AMANAH**, berikut adalah 9 kandidat karakteristik arsitektur yang diklasifikasikan menurut kategori (operasional, struktural, lintas sektor) dan sifatnya (eksplisit atau implisit) mengacu pada kerangka *Fundamentals of Software Architecture* [2]:
