@@ -3,7 +3,7 @@
 Penanggung jawab: Alif F. Fauzan 
 
 
-## Ringkasan keputusan
+## keputusan
 1. **ADR-001 — Pemisahan modul layanan:** logika pengaduan, penugasan, tindak lanjut, umpan balik, notifikasi, serta audit dan akses dipisahkan berdasarkan tanggung jawab. Tujuannya mempermudah perubahan, pengujian, dan pemeliharaan.
 2. **ADR-002 — Keamanan dan audit:** menerapkan autentikasi, hak akses berbasis peran, HTTPS, dan pencatatan aktivitas penting untuk menjaga kerahasiaan serta ketertelusuran laporan.
 
