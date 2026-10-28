@@ -2,8 +2,6 @@
 
 **Penanggung Jawab:** Alif F. Fauzan  
 
-## 1. Tujuan
-
 Rencana komunikasi ini bertujuan memastikan seluruh pihak yang terlibat dalam pengembangan dan penggunaan AMANAH memahami keputusan arsitektur, kebutuhan sistem, target kualitas, serta perubahan yang dilakukan selama pengembangan.
 
 ## 2. Rencana Komunikasi
