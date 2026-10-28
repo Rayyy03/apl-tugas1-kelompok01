@@ -38,7 +38,3 @@ Rencana komunikasi ini bertujuan memastikan seluruh pihak yang terlibat dalam pe
 ## 5. Evaluasi Komunikasi
 
 Evaluasi dilakukan untuk memastikan informasi diterima dengan jelas dan perubahan arsitektur dipahami oleh pihak terkait. Evaluasi mencakup kelengkapan dokumentasi, penyelesaian masalah yang dilaporkan, serta kesesuaian implementasi dengan keputusan arsitektur.
-
-## 6. Kesimpulan
-
-Rencana komunikasi membantu menjaga koordinasi antara tim pengembang, pengelola sistem, unit kerja, pelapor, dan pimpinan kampus. Dengan dokumentasi yang terstruktur melalui GitHub, setiap keputusan dan perubahan arsitektur AMANAH dapat dipahami, ditinjau, dan ditelusuri dengan lebih mudah.
