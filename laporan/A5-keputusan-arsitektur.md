@@ -14,24 +14,3 @@ Rencana komunikasi ini bertujuan memastikan seluruh pihak yang terlibat dalam pe
 | 5 | Pimpinan kampus | Ringkasan laporan, status tindak lanjut, dan hasil evaluasi | Laporan berkala | Sesuai jadwal evaluasi |
 | 6 | Tim penguji | Target kualitas, skenario pengujian, dan hasil pengujian | Dokumentasi pengujian dan GitHub Issues | Setiap iterasi pengujian |
 
-## 3. Mekanisme Komunikasi
-
-1. Setiap keputusan arsitektur didokumentasikan dalam berkas ADR di repositori GitHub.
-2. Perubahan keputusan dibahas bersama pihak yang terdampak sebelum diterapkan.
-3. Hasil pengujian dibandingkan dengan target kualitas yang ditetapkan pada B2.
-4. Masalah teknis dan usulan perubahan dicatat melalui GitHub Issues.
-5. Dokumentasi diperbarui apabila terdapat perubahan keputusan atau kebutuhan sistem.
-6. Informasi sensitif, khususnya identitas pelapor, hanya disampaikan kepada pihak yang memiliki kewenangan.
-
-## 4. Alur Komunikasi
-
-1. Tim pengembang mengidentifikasi kebutuhan atau perubahan arsitektur.
-2. Tim mencatat usulan perubahan pada dokumentasi atau GitHub Issues.
-3. Pihak terkait melakukan diskusi dan memberikan masukan.
-4. Keputusan disetujui dan dicatat dalam ADR.
-5. Tim menerapkan perubahan dan melakukan pengujian.
-6. Hasil perubahan disampaikan kepada pihak terkait dan dokumentasi diperbarui.
-
-## 5. Evaluasi Komunikasi
-
-Evaluasi dilakukan untuk memastikan informasi diterima dengan jelas dan perubahan arsitektur dipahami oleh pihak terkait. Evaluasi mencakup kelengkapan dokumentasi, penyelesaian masalah yang dilaporkan, serta kesesuaian implementasi dengan keputusan arsitektur.
