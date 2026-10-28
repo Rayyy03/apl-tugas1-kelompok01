@@ -1,4 +1,5 @@
 # A1. Analisis Empat Konteks Arsitektur
+Penanggung Jawab: Muhammad Widyadhana Rafi' Putra
 
 Tabel berikut menyajikan analisis kondisi subsistem layanan pengaduan dan pelaporan **AMANAH** pada empat konteks arsitektur beserta dampaknya terhadap perancangan arsitektur:
 
