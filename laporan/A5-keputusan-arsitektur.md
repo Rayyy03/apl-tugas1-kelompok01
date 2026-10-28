@@ -19,6 +19,4 @@ ADR lengkap disimpan pada folder `adr/` di repository kelompok. Ringkasan ini da
 - **Groundhog Day:** sebelum mengusulkan keputusan baru, anggota memeriksa folder `adr/` dan riwayat commit. Keputusan lama yang relevan ditautkan dan diperbarui, bukan dibahas ulang tanpa konteks.
 - **Email-Driven Architecture:** email atau chat hanya dipakai sebagai notifikasi, bukan tempat utama keputusan. Versi resmi disimpan di repository, ditinjau melalui pull request/commit, dan perubahan dicatat dalam riwayat.
 
-## Catatan validasi
-Isi ADR di atas merupakan rekomendasi desain akademik berdasarkan ruang lingkup layanan dalam dokumen tugas. Struktur teknis dan kebijakan aktual AMANAH belum diverifikasi; kelompok perlu menyesuaikannya dengan hasil pengamatan, sumber publik, atau wawancara yang sah.
 
