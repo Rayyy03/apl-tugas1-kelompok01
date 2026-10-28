@@ -1,4 +1,5 @@
 # BAB I. Pendahuluan
+Penanggung Jawab: Muhammad Widyadhana Rafi' Putra
 
 ## 1.1 Gambaran layanan inti
 Layanan pengaduan dan pelaporan **AMANAH** (`https://umi.ac.id/amanah`) merupakan kanal resmi pada subsistem **Layanan Pendukung Kampus** di Universitas Muslim Indonesia (UMI) yang memfasilitasi sivitas akademika maupun masyarakat kampus untuk menyampaikan pengaduan, aspirasi, saran, apresiasi, serta permohonan informasi. Layanan ini menangani 15 kategori permasalahan—mulai dari operasional rutin seperti akademik, keuangan, pelayanan, dan sarana prasarana, hingga pelaporan sensitif (*whistleblowing*) seperti pelanggaran etika, gratifikasi, korupsi, kekerasan seksual, perundungan, dan diskriminasi.
