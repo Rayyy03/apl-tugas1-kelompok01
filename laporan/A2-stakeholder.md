@@ -16,8 +16,6 @@ Tabel berikut mengidentifikasi 7 pemangku kepentingan (*stakeholder*) yang mewak
 | **SH-06** | **Satgas PPKS / Komite Etik & Disiplin Kampus** | Pihak Eksternal (Unit Khusus/Independen) | Menangani investigasi khusus untuk kategori laporan sensitif berurgensi tinggi (kekerasan seksual, perundungan, diskriminasi, korupsi, gratifikasi) dengan perlindungan saksi yang ketat. | *Security & Confidentiality* (jaminan mutlak kerahasiaan identitas pelapor dan keutuhan barang bukti video/dokumen). | Tinggi | Tinggi | Sangat Tinggi |
 | **SH-07** | **Masyarakat Umum / Pihak Terlapor** | Pengguna Akhir / Pihak Eksternal | Mengajukan permohonan informasi publik melalui portal AMANAH (bagi masyarakat/mitra) atau memberikan klarifikasi resmi melalui unit terkait (bagi pihak terlapor). | *Availability* (ketersediaan akses portal publik 24/7), *Integrity* (objektivitas pencatatan tanggapan resmi). | Rendah | Rendah | Rendah |
 
----
-
 ## 2. Diagram Peta Power/Interest (Matriks Mendelow)
 
 ![Peta Power/Interest Stakeholder Layanan AMANAH UMI](../diagram/A2-peta-power-interest.png)
@@ -32,8 +30,6 @@ Pemetaan posisi ketujuh *stakeholder* ke dalam empat kuadran matriks *Power/Inte
 | **Kuadran II (Kiri Atas)** | **High Power, Low Interest** *(Keep Satisfied / Jaga Kepuasan)* | **SH-05** (Tim Pengembang & Infrastruktur PDTI UMI) | Memiliki kewenangan teknis penuh atas infrastruktur server, keamanan jaringan, dan arsitektur basis data kampus, namun tidak terlibat langsung dalam urusan birokrasi penanganan isi aduan harian. |
 | **Kuadran III (Kanan Bawah)** | **Low Power, High Interest** *(Keep Informed / Beri Informasi Rutin)* | **SH-01** (Pelapor: Mahasiswa, Dosen, Tendik) | Sangat berkepentingan agar laporannya ditindaklanjuti dengan cepat dan identitasnya aman, tetapi tidak memiliki wewenang struktural untuk mengubah alur internal sistem maupun mendisposisikan tiket. |
 | **Kuadran IV (Kiri Bawah)** | **Low Power, Low Interest** *(Monitor / Pantau Secukupnya)* | **SH-07** (Masyarakat Umum / Pihak Terlapor) | Hanya berinteraksi secara insidental dengan sistem (misalnya untuk permohonan informasi umum) dan tidak memiliki kendali langsung atas pengelolaan sistem AMANAH. |
-
----
 
 ## 3. Strategi Pengelolaan Stakeholder pada Arsitektur
 
