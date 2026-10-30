@@ -13,9 +13,9 @@ Konteks & Keputusan Arsitektur (Pertemuan 5) serta Karakteristik Arsitektur & At
 
 | No | Stambuk | Nama | Akun GitHub | Kode yang dikerjakan |
 |---|---|---|---|---|
-| 1 | 13020240108 | MUHAMMAD WIDYADHANA RAFI PUTRA | [@Kiano-Ksl](https://github.com/Kiano-Ksl) | BAB I, A1, B1 |
-| 2 | 13020240101 | ABRAR RAYNALDO ARIFUDDIN | [@Rayyy03](https://github.com/Rayyy03) | A4, B2 |
-| 3 | 13020240051 | ALIF F. FAUZAN | [@fauzanalif791-sketch](https://github.com/fauzanalif791-sketch) | A5, B4 |
+| 1 | 13020240108 | MUHAMMAD WIDYADHANA RAFI PUTRA | [@Kiano-Ksl](https://github.com/Kiano-Ksl) | BAB I, A1, B1, A2, BAB IV |
+| 2 | 13020240101 | ABRAR RAYNALDO ARIFUDDIN | [@Rayyy03](https://github.com/Rayyy03) | A4, B2, B3, B5 |
+| 3 | 13020240051 | ALIF F. FAUZAN | [@fauzanalif791-sketch](https://github.com/fauzanalif791-sketch) | A5, B4, A3, Pustaka |
 | 4 | 13020240275 | MUH. AKMAL ZAIDAN ZIDNA (Tidak Diketahui) | ~~@~~ | ~~A3, B5, BAB IV~~ |
 | 5 | 13020210276 | MUH IRWAN AGIL SAPUTRA (Tidak Diketahui) | ~~@~~ | ~~A2, B3, Pustaka~~ |
 
@@ -27,17 +27,17 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 |---|---|---|---|
 | BAB I | laporan/BAB1-pendahuluan.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Selesai |
 | A1 | laporan/A1-konteks-arsitektur.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Selesai |
-| A2 | laporan/A2-stakeholder.md | MUH IRWAN AGIL SAPUTRA | Belum |
-| A3 | laporan/A3-batasan.md | MUH. AKMAL ZAIDAN ZIDNA | Belum |
+| A2 | laporan/A2-stakeholder.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Belum |
+| A3 | laporan/A3-batasan.md | ALIF F. FAUZAN | Belum |
 | A4 | laporan/A4-asr.md | ABRAR RAYNALDO ARIFUDDIN | Selesai |
 | A5 | laporan/A5-keputusan-arsitektur.md dan adr/ | ALIF F. FAUZAN | Belum |
 | B1 | laporan/B1-karakteristik.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Selesai |
 | B2 | laporan/B2-atribut-terukur.md | ABRAR RAYNALDO ARIFUDDIN | Selesai |
-| B3 | laporan/B3-tiga-struktur.md dan diagram/ | MUH IRWAN AGIL SAPUTRA | Belum |
+| B3 | laporan/B3-tiga-struktur.md dan diagram/ | ABRAR RAYNALDO ARIFUDDIN | Belum |
 | B4 | laporan/B4-iso-25010.md | ALIF F. FAUZAN | Belum |
-| B5 | laporan/B5-trade-off.md | MUH. AKMAL ZAIDAN ZIDNA | Belum |
-| BAB IV | laporan/BAB4-penutup.md | MUH IRWAN AGIL SAPUTRA | Belum |
-| Pustaka | laporan/daftar-pustaka.md | MUH. AKMAL ZAIDAN ZIDNA | Belum |
+| B5 | laporan/B5-trade-off.md | ABRAR RAYNALDO ARIFUDDIN | Belum |
+| BAB IV | laporan/BAB4-penutup.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Belum |
+| Pustaka | laporan/daftar-pustaka.md | ALIF F. FAUZAN | Belum |
 
 ## Laporan PDF terakhir
 
