@@ -33,7 +33,7 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 | A5 | laporan/A5-keputusan-arsitektur.md dan adr/ | MUHAMMAD WIDYADHANA RAFI PUTRA (Penyusun ADR) & ALIF F. FAUZAN (Rencana Komunikasi) | Selesai |
 | B1 | laporan/B1-karakteristik.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Selesai |
 | B2 | laporan/B2-atribut-terukur.md | ABRAR RAYNALDO ARIFUDDIN | Selesai |
-| B3 | laporan/B3-tiga-struktur.md dan diagram/ | ABRAR RAYNALDO ARIFUDDIN | Belum |
+| B3 | laporan/B3-tiga-struktur.md dan diagram/ | ABRAR RAYNALDO ARIFUDDIN | Selesai |
 | B4 | laporan/B4-iso-25010.md | ALIF F. FAUZAN | Selesai |
 | B5 | laporan/B5-trade-off.md | ABRAR RAYNALDO ARIFUDDIN | Belum |
 | BAB IV | laporan/BAB4-penutup.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Selesai |
