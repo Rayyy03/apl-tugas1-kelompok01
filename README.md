@@ -35,7 +35,7 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 | B2 | laporan/B2-atribut-terukur.md | ABRAR RAYNALDO ARIFUDDIN | Selesai |
 | B3 | laporan/B3-tiga-struktur.md dan diagram/ | ABRAR RAYNALDO ARIFUDDIN | Selesai |
 | B4 | laporan/B4-iso-25010.md | ALIF F. FAUZAN | Selesai |
-| B5 | laporan/B5-trade-off.md | ABRAR RAYNALDO ARIFUDDIN | Belum |
+| B5 | laporan/B5-trade-off.md | ABRAR RAYNALDO ARIFUDDIN | Selesai |
 | BAB IV | laporan/BAB4-penutup.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Selesai |
 | Pustaka | laporan/daftar-pustaka.md | ALIF F. FAUZAN | Belum |
 
