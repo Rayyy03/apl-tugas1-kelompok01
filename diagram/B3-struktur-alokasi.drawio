@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="hkczMN-F0w-_ttV5wtzw">
+    <mxGraphModel dx="4074" dy="2647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;flowchart TB\n    subgraph NODE_CLIENT [\&quot;Node Perangkat Pengguna\&quot;]\n        N_Pelapor[\&quot;Perangkat Pelapor (Mobile / Desktop)\n        [Web Pelapor Publik]\&quot;]\n        N_Petugas[\&quot;Perangkat Admin dan Staf Unit UMI\n        [Web Dasbor Admin dan Unit]\&quot;]\n    end\n\n    subgraph NODE_INFRA [\&quot;Node Infrastruktur Server Kampus (PDTI UMI - umi.ac.id)\&quot;]\n        N_AppServer[\&quot;Server Aplikasi Web AMANAH\n        - Komponen Layanan Web dan API AMANAH (Tim Frontend/API)\n        - Komponen Pengendali Privasi dan RBAC (Tim Keamanan/Backend)\n        - Komponen Pengelola Tiket dan Disposisi (Tim Backend)\n        - Komponen Worker Notifikasi (Tim Backend)\&quot;]\n\n        N_DBServer[\&quot;Server Basis Data Kampus\n        - Basis Data Relasional Utama (Tim Database/PDTI)\&quot;]\n\n        N_Storage[\&quot;Server Penyimpanan Objek / File Server\n        - Penyimpanan Berkas Bukti Maks 10 MB (Tim Infrastruktur/PDTI)\&quot;]\n    end\n\n    subgraph NODE_EXT [\&quot;Node Layanan Pihak Ketiga\&quot;]\n        N_NotifExt[\&quot;Server Gateway Email dan WhatsApp\&quot;]\n    end\n\n    N_Pelapor --&gt;|HTTPS / Internet| N_AppServer\n    N_Petugas --&gt;|HTTPS / Jaringan Kampus| N_AppServer\n    N_AppServer --&gt;|Jaringan Internal TCP/SQL| N_DBServer\n    N_AppServer --&gt;|Jaringan Internal S3/File API| N_Storage\n    N_AppServer --&gt;|HTTPS / SMTP| N_NotifExt\n\n    style NODE_CLIENT fill:#dae8fc,stroke:#6c8ebf,stroke-width:2px,color:#000\n    style NODE_INFRA fill:#fff2cc,stroke:#d6b656,stroke-width:2px,color:#000\n    style NODE_EXT fill:#d5e8d4,stroke:#82b366,stroke-width:2px,color:#000&quot;,&#xa;  &quot;config&quot;: null,&#xa;  &quot;version&quot;: &quot;12&quot;&#xa;}" id="MNny-E_EtXihVLz9DkPa-124">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Node Layanan Pihak Ketiga" mermaidId="n:NODE_EXT" mermaidBaseStyle="html=1;whiteSpace=nowrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Node Layanan Pihak Ketiga" id="MNny-E_EtXihVLz9DkPa-125">
+          <mxCell parent="MNny-E_EtXihVLz9DkPa-124" style="html=1;whiteSpace=nowrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="159" width="200" x="210" y="1286" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Server Gateway Email dan WhatsApp" mermaidId="n:N_NotifExt" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Server Gateway Email dan WhatsApp" id="MNny-E_EtXihVLz9DkPa-126">
+          <mxCell parent="MNny-E_EtXihVLz9DkPa-125" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="87" width="152" x="24" y="48" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Node Infrastruktur Server Kampus (PDTI UMI - umi.ac.id)" mermaidId="n:NODE_INFRA" mermaidBaseStyle="html=1;whiteSpace=nowrap;strokeWidth=2;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Node Infrastruktur Server Kampus (PDTI UMI - umi.ac.id)" id="MNny-E_EtXihVLz9DkPa-127">
+          <mxCell parent="MNny-E_EtXihVLz9DkPa-124" style="html=1;whiteSpace=nowrap;strokeWidth=2;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="813" width="481" x="274" y="352" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Server Aplikasi Web AMANAH&#xa;- Komponen Layanan Web dan API AMANAH (Tim Frontend/API)&#xa;- Komponen Pengendali Privasi dan RBAC (Tim Keamanan/Backend)&#xa;- Komponen Pengelola Tiket dan Disposisi (Tim Backend)&#xa;- Komponen Worker Notifikasi (Tim Backend)" mermaidId="n:N_AppServer" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Server Aplikasi Web AMANAH&#xa;- Komponen Layanan Web dan API AMANAH (Tim Frontend/API)&#xa;- Komponen Pengendali Privasi dan RBAC (Tim Keamanan/Backend)&#xa;- Komponen Pengelola Tiket dan Disposisi (Tim Backend)&#xa;- Komponen Worker Notifikasi (Tim Backend)" id="MNny-E_EtXihVLz9DkPa-128">
+          <mxCell parent="MNny-E_EtXihVLz9DkPa-127" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="444" width="152" x="64" y="48" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Server Basis Data Kampus&#xa;- Basis Data Relasional Utama (Tim Database/PDTI)" mermaidId="n:N_DBServer" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Server Basis Data Kampus&#xa;- Basis Data Relasional Utama (Tim Database/PDTI)" id="MNny-E_EtXihVLz9DkPa-129">
+          <mxCell parent="MNny-E_EtXihVLz9DkPa-127" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="150" width="152" x="64" y="597" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Server Penyimpanan Objek / File Server&#xa;- Penyimpanan Berkas Bukti Maks 10 MB (Tim Infrastruktur/PDTI)" mermaidId="n:N_Storage" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Server Penyimpanan Objek / File Server&#xa;- Penyimpanan Berkas Bukti Maks 10 MB (Tim Infrastruktur/PDTI)" id="MNny-E_EtXihVLz9DkPa-130">
+          <mxCell parent="MNny-E_EtXihVLz9DkPa-127" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="192" width="152" x="278" y="597" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Jaringan Internal TCP/SQL" mermaidId="e:N_AppServer-&gt;N_DBServer#0" mermaidBaseStyle="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=16;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" mermaidBaseValue="Jaringan Internal TCP/SQL" id="MNny-E_EtXihVLz9DkPa-131">
+          <mxCell edge="1" parent="MNny-E_EtXihVLz9DkPa-127" source="MNny-E_EtXihVLz9DkPa-128" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="MNny-E_EtXihVLz9DkPa-129">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Jaringan Internal S3/File API" mermaidId="e:N_AppServer-&gt;N_Storage#0" mermaidBaseStyle="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=16;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.71;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" mermaidBaseValue="Jaringan Internal S3/File API" id="MNny-E_EtXihVLz9DkPa-132">
+          <mxCell edge="1" parent="MNny-E_EtXihVLz9DkPa-127" source="MNny-E_EtXihVLz9DkPa-128" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.71;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="MNny-E_EtXihVLz9DkPa-130">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="173" y="522" />
+                <mxPoint x="354" y="522" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Node Perangkat Pengguna" mermaidId="n:NODE_CLIENT" mermaidBaseStyle="html=1;whiteSpace=nowrap;strokeWidth=2;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Node Perangkat Pengguna" id="MNny-E_EtXihVLz9DkPa-133">
+          <mxCell parent="MNny-E_EtXihVLz9DkPa-124" style="html=1;whiteSpace=nowrap;strokeWidth=2;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="201" width="402" x="213" y="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Perangkat Pelapor (Mobile / Desktop)&#xa;[Web Pelapor Publik]" mermaidId="n:N_Pelapor" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Perangkat Pelapor (Mobile / Desktop)&#xa;[Web Pelapor Publik]" id="MNny-E_EtXihVLz9DkPa-134">
+          <mxCell parent="MNny-E_EtXihVLz9DkPa-133" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="129" width="152" x="24" y="48" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Perangkat Admin dan Staf Unit UMI&#xa;[Web Dasbor Admin dan Unit]" mermaidId="n:N_Petugas" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Perangkat Admin dan Staf Unit UMI&#xa;[Web Dasbor Admin dan Unit]" id="MNny-E_EtXihVLz9DkPa-135">
+          <mxCell parent="MNny-E_EtXihVLz9DkPa-133" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
+            <mxGeometry height="129" width="152" x="226" y="48" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="HTTPS / Internet" mermaidId="e:N_Pelapor-&gt;N_AppServer#0" mermaidBaseStyle="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=16;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.5;exitY=1;entryX=0.36;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" mermaidBaseValue="HTTPS / Internet" id="MNny-E_EtXihVLz9DkPa-136">
+          <mxCell edge="1" parent="MNny-E_EtXihVLz9DkPa-124" source="MNny-E_EtXihVLz9DkPa-134" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.5;exitY=1;entryX=0.36;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="MNny-E_EtXihVLz9DkPa-128">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="313" y="241" />
+                <mxPoint x="313" y="261" />
+                <mxPoint x="330" y="261" />
+                <mxPoint x="330" y="322" />
+                <mxPoint x="392" y="322" />
+                <mxPoint x="392" y="342" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="HTTPS / Jaringan Kampus" mermaidId="e:N_Petugas-&gt;N_AppServer#0" mermaidBaseStyle="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=16;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.5;exitY=1;entryX=0.64;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" mermaidBaseValue="HTTPS / Jaringan Kampus" id="MNny-E_EtXihVLz9DkPa-137">
+          <mxCell edge="1" parent="MNny-E_EtXihVLz9DkPa-124" source="MNny-E_EtXihVLz9DkPa-135" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.5;exitY=1;entryX=0.64;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="MNny-E_EtXihVLz9DkPa-128">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="515" y="241" />
+                <mxPoint x="515" y="261" />
+                <mxPoint x="498" y="261" />
+                <mxPoint x="498" y="322" />
+                <mxPoint x="436" y="322" />
+                <mxPoint x="436" y="342" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="HTTPS / SMTP" mermaidId="e:N_AppServer-&gt;N_NotifExt#0" mermaidBaseStyle="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=16;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.29;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" mermaidBaseValue="HTTPS / SMTP" id="MNny-E_EtXihVLz9DkPa-138">
+          <mxCell edge="1" parent="MNny-E_EtXihVLz9DkPa-124" source="MNny-E_EtXihVLz9DkPa-128" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;html=1;fontSize=14;labelBackgroundColor=#cccccc;fontFamily=Recursive;fontColor=#28253D;exitX=0.29;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" target="MNny-E_EtXihVLz9DkPa-126">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="381" y="874" />
+                <mxPoint x="310" y="874" />
+                <mxPoint x="310" y="1175" />
+                <mxPoint x="310" y="1276" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
