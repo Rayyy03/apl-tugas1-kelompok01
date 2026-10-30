@@ -27,7 +27,7 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 |---|---|---|---|
 | BAB I | laporan/BAB1-pendahuluan.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Selesai |
 | A1 | laporan/A1-konteks-arsitektur.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Selesai |
-| A2 | laporan/A2-stakeholder.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Belum |
+| A2 | laporan/A2-stakeholder.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Selesai |
 | A3 | laporan/A3-batasan.md | ALIF F. FAUZAN | Belum |
 | A4 | laporan/A4-asr.md | ABRAR RAYNALDO ARIFUDDIN | Selesai |
 | A5 | laporan/A5-keputusan-arsitektur.md dan adr/ | MUHAMMAD WIDYADHANA RAFI PUTRA (Penyusun ADR) & ALIF F. FAUZAN (Rencana Komunikasi) | Selesai |
@@ -36,7 +36,7 @@ Status: Belum / Draf / Selesai. Perbarui tabel ini setiap ada perubahan.
 | B3 | laporan/B3-tiga-struktur.md dan diagram/ | ABRAR RAYNALDO ARIFUDDIN | Belum |
 | B4 | laporan/B4-iso-25010.md | ALIF F. FAUZAN | Selesai |
 | B5 | laporan/B5-trade-off.md | ABRAR RAYNALDO ARIFUDDIN | Belum |
-| BAB IV | laporan/BAB4-penutup.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Belum |
+| BAB IV | laporan/BAB4-penutup.md | MUHAMMAD WIDYADHANA RAFI PUTRA | Selesai |
 | Pustaka | laporan/daftar-pustaka.md | ALIF F. FAUZAN | Belum |
 
 ## Laporan PDF terakhir
