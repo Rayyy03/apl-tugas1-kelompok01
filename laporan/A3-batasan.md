@@ -51,12 +51,3 @@ Batasan operasional merupakan faktor yang berkaitan dengan penggunaan, pemelihar
 | 3 | Perubahan kategori dan unit kerja | Maintainability | Mempermudah perubahan aturan tanpa merusak modul lain. |
 | 4 | Banyaknya laporan bersamaan | Reliability & Performance | Menjaga keberhasilan pencatatan dan waktu respons sistem. |
 | 5 | Perbedaan kemampuan pengguna | Usability | Mempermudah pengguna dalam mengirim dan memantau laporan. |
-
-## 6. Kesimpulan
-
-Berdasarkan identifikasi yang dilakukan, sistem AMANAH memiliki batasan teknologi, bisnis, dan operasional yang harus diperhatikan dalam proses pengembangan.
-
-Batasan teknologi berfokus pada keamanan, server, penyimpanan, dan koneksi internet. Batasan bisnis berhubungan dengan kebijakan kampus, struktur unit kerja, anggaran, dan kerahasiaan pelapor. Sementara itu, batasan operasional berhubungan dengan pengelolaan laporan, pemeliharaan sistem, kemampuan pengguna, dan penanganan gangguan.
-
-Seluruh batasan tersebut menjadi pertimbangan dalam menentukan arsitektur agar sistem AMANAH dapat berjalan dengan aman, andal, dan mudah dikembangkan.
-
